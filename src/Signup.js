@@ -19,14 +19,14 @@ function Signup() {
       {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: json.stringify({ username, password }),
+        body: JSON.stringify({ username, password }),
       }
     );
     const data = await response.json();
     setAuthLoading(false);
     if (data.message === "User registered") {
       setSuccess(true);
-      setTimeout(() => navigate("/login"), 1600);
+      setTimeout(() => navigate("/login"), 1500);
     } else {
       setAuthError(data.message || "Signup failed");
     }
