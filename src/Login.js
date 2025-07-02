@@ -16,7 +16,7 @@ export default function Login({ setToken }) {
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: json.stringify({ username, password }),
+        body: JSON.stringify({ username, password }),
       }
     );
     const data = await response.json();
@@ -42,10 +42,9 @@ export default function Login({ setToken }) {
           </div>
         )}
         <form
-          onsubmit={(e) => {
-            e.preventdefault();
-            login;
-            username, password;
+          onSubmit={(e) => {
+            e.preventDefault();
+            login(username, password);
           }}
         >
           <input
@@ -55,7 +54,7 @@ export default function Login({ setToken }) {
             className="p-3 
             border-2 
             border-blue-300 
-            rounder w-full 
+            rounded w-full 
             mb-4 
             focus:ring-2 
             focus: ring-blue-400"
@@ -63,14 +62,15 @@ export default function Login({ setToken }) {
           />
 
           <input
-            type="text"
+            type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             className="p-3 
             border-2 
             border-blue-300 
-            rounder w-full 
+            rounded w-full 
             mb-4 
+            focus:outline-none
             focus:ring-2 
             focus: ring-blue-400"
             placeholder="Password"
@@ -78,14 +78,14 @@ export default function Login({ setToken }) {
 
           <button
             type="submit"
-            className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded w-full transition-color"
+            className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded w-full transition-color duration-200"
           >
             {authLoading ? "Logging in..." : "Login"}
           </button>
         </form>
 
-        <div className="mt-5 text-center text-gray-700">
-          Don't have an account?
+        <div className="mt-5 text-center">
+          <span className="text-gray-700">Don't have an account? </span>
           <Link to="/signup">
             <span className="text-blue-500 hover:underline font-semibold">
               Sign Up
