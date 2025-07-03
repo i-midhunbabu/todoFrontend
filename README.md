@@ -1,6 +1,6 @@
 # To-Do List Web App
 
-This project focuses on building and deploying a full-stack To-Do List web application using React.js for the frontend and Node.js with Express and MongoDB for the backend. 
+This project focuses on building and deploying a full-stack To-Do List web application using React.js for the frontend and Node.js with Express and MongoDB for the backend. With this application, users can create tasks, assign priorities to each task, and update the task status.  
 
 ### Technologies Used
 - Frontend: React.js
@@ -9,8 +9,10 @@ This project focuses on building and deploying a full-stack To-Do List web appli
 
 - Database: MongoDB
 
+### Setup Instructions
+
 ### Deployment
-The developed backend and frontend is deployed to Render (https://render.com/).
+The developed frontend and backend are deployed on Render (https://render.com/).
 
 Deployment Link (Backend): https://todobackend-z5k0.onrender.com
 
