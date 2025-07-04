@@ -2,10 +2,6 @@
 
 This project focuses on building and deploying a full-stack To-Do List web application using React.js for the frontend and Node.js with Express and MongoDB for the backend. With this application, users can create tasks, assign priorities to each task, and update the task status.  
 
-## Live Demo
-
-*   **Frontend (Web App):** (https://todofrontend-zkwn.onrender.com)
-*   **Backend (API):** (https://todobackend-z5k0.onrender.com)
 
 ## Table of Contents
 
@@ -14,6 +10,7 @@ This project focuses on building and deploying a full-stack To-Do List web appli
   - [Codesandbox Setup](#codesandbox-setup)
   - [Local Setup (Optional)](#local-setup-optional)
   - [Deployment to Render](#deployment-to-render)
+- [Live Demo](#live-demo)
 - [Screenshots](#screenshots)
 
 ## Built With
@@ -125,6 +122,11 @@ To deploy this MERN stack application to Render, follow these steps:
 7.  **Deploy:** Click the "Create Web Service" and "Create Static Site" buttons to deploy your frontend and backend respectively. Render will automatically build and deploy your application.
 8.  **Verify and Test:** Once the deployment is complete, Render will provide URLs for your frontend and backend. Access your application using the frontend URL to ensure everything is working as expected.
 
+
+## Live Demo
+
+*   **Frontend (Web App):** (https://todofrontend-zkwn.onrender.com)
+*   **Backend (API):** (https://todobackend-z5k0.onrender.com)
    
 ## Screenshots
 
