@@ -5,17 +5,28 @@ This project focuses on building and deploying a full-stack To-Do List web appli
 ## Table of Contents
 
 - [Built With](#built-with)
-- [Getting Started] (#getting-started)
+- [Getting Started](#getting-started)
   - [Codesandbox Setup](#codesandbox-setup)
   - [Local Setup (Optional)](#local-setup-optional)
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
 
 ## Built With
 
-- Frontend: React.js
+- **Frontend:**
+  - React.js
+  - [Other frontend libraries/frameworks, e.g., react-router-dom, react-dom]
 
-- Backend: Node.js, Express.js
+- **Backend:**
+  -  Node.js
+  -  Express.js
+  -  [Other backend libraries, e.g., Mongoose, dotenv, bcrypt.js, cors, jsonwebtoken]
 
-- Database: MongoDB
+- **Database:**
+  - MongoDB Atlas
+
+- **Development Environment:**
+  - Codesandbox
 
 ## Getting Started
 
@@ -23,7 +34,7 @@ This project focuses on building and deploying a full-stack To-Do List web appli
 
 To explore and run this project in Codesandbox:
 
-1.  **Go to the Codesandbox link:** [Link: https://codesandbox.io/p/sandbox/todofrontend-qhp7wl]
+1.  **Go to the Codesandbox link:** [https://codesandbox.io/p/sandbox/todofrontend-qhp7wl , https://codesandbox.io/p/devbox/icy-wave-cnz4sg]
 2.  **Fork the sandbox (if needed):** If you want to make changes, you can fork the sandbox to your own Codesandbox account.
 
 ### Local Setup (Optional)
